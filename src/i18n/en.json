@@ -1,0 +1,20 @@
+{
+  "welcome": "Welcome",
+  "app_running": "app is running!",
+  "resources": "Resources",
+  "useful_links": "Here are some links to help you get started:",
+  "leanr_angular": "Learn Angular",
+  "cli_doc": "CLI Documentation",
+  "angular_blog": "Angular Blog",
+  "angular_devtools": "Angular DevTools",
+  "next_step": "Next Steps",
+  "what_you_want": "What do you want to do next with your app?",
+  "new_component": "New Component",
+  "angular_material": "Angular Material",
+  "add_pwa_support": "Add PWA Support",
+  "add_dependency": "Add Dependency",
+  "watch_tests": "Run and Watch Tests",
+  "build_prod": "Build for Production",
+  "love_angular": "Love Angular?",
+  "give_star": "Give our repo a star."
+}
