@@ -1,14 +1,17 @@
 # TolgeeNgx
-
+A simple application to localize your Angular project with Tolgee
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
 
-## Development server
+## Running the app
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Create a project on [Tolgee Cloud](https://app.tolgee.io/) or use [self-hosted](https://github.com/tolgee/server) Tolgee Server.
+2. Generate your API Key
+3. Clone this repository
+4. Add your API Key and Host in `environment/environment.local.ts` file
+5. run `npm install`
+6. Run `ng serve` to start app
+7. Visit `localhost:4200`
+   
 
 ## Build
 
