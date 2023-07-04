@@ -1,0 +1,19 @@
+.selector {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  background: #dd0031;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  cursor: pointer;
+  color: white;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
