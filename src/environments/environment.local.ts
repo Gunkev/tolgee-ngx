@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
-  tolgeeApiKey: 'Your api key here',
-  tolgeeApiUrl: 'Your server url here',
+  tolgeeApiKey: 'Your server url here',
+  tolgeeApiUrl: 'Your api key here',
 };
