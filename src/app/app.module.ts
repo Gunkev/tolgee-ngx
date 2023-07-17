@@ -8,6 +8,7 @@ import {
   NgxTolgeeModule,
   Tolgee,
   TOLGEE_INSTANCE,
+  BackendFetch,
   FormatSimple,
 } from '@tolgee/ngx';
 import { environment } from 'src/environments/environment.local';
@@ -20,11 +21,15 @@ import { LanguageSelectorComponent } from './language-selector/language-selector
     {
       provide: TOLGEE_INSTANCE,
       useFactory: () => {
-        return Tolgee().use(DevTools()).use(FormatSimple()).init({
-          language: 'en',
-          apiUrl: environment.tolgeeApiUrl,
-          apiKey: environment.tolgeeApiKey,
-        });
+        return Tolgee()
+          .use(DevTools())
+          .use(FormatSimple())
+          .use(BackendFetch({}))
+          .init({
+            language: 'en',
+            apiUrl: environment.tolgeeApiUrl,
+            apiKey: environment.tolgeeApiKey,
+          });
       },
     },
   ],
